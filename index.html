@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Lê — Doces Personalizados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Parisienne&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-logo">
+        <a href="#top" aria-label="Sweet Lê - início">
+          <img src="IMG/Logo.png" alt="Sweet Lê — Doces Personalizados" />
+        </a>
+      </div>
+
+      <div class="nav">
+        <a href="#top" class="brand">
+          <span class="brand-name">Sweet Lê</span>
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="index.html#historia">Nossa história</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contato" class="nav-cta">Encomendar</a>
+
+        <button class="menu-btn" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-hearts" aria-hidden="true">
+        <svg
+          style="
+            top: 18%;
+            left: 10%;
+            width: 22px;
+            height: 22px;
+            animation-delay: 0s;
+          "
+          viewBox="0 0 24 24"
+          fill="#EFA3A0"
+        >
+          <path
+            d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+          />
+        </svg>
+        <svg
+          style="
+            top: 65%;
+            left: 6%;
+            width: 14px;
+            height: 14px;
+            animation-delay: 1.4s;
+          "
+          viewBox="0 0 24 24"
+          fill="#C97878"
+        >
+          <path
+            d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+          />
+        </svg>
+        <svg
+          style="
+            top: 24%;
+            right: 9%;
+            width: 18px;
+            height: 18px;
+            animation-delay: 0.7s;
+          "
+          viewBox="0 0 24 24"
+          fill="#EFA3A0"
+        >
+          <path
+            d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+          />
+        </svg>
+        <svg
+          style="
+            top: 70%;
+            right: 13%;
+            width: 15px;
+            height: 15px;
+            animation-delay: 2.1s;
+          "
+          viewBox="0 0 24 24"
+          fill="#C97878"
+        >
+          <path
+            d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+          />
+        </svg>
+      </div>
+      <div class="hero-inner">
+        <div class="eyebrow">
+          <span class="line"></span>Doces Personalizados<span
+            class="line"
+          ></span>
+        </div>
+        <h1 class="reveal">Um <em>doce carinho</em><br />em cada detalhe</h1>
+        <p class="sub reveal">
+          Brigadeiros, cupcakes e docinhos feitos à mão, um a um, para
+          transformar seus momentos em memórias inesquecíveis.
+        </p>
+        <a href="#contato" class="btn-primary reveal">
+          Faça sua encomenda
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+              fill="#FFF9F7"
+            />
+          </svg>
+        </a>
+        <div class="hero-strip reveal">
+          <span>Pedidos personalizados</span><span class="dot"></span>
+          <span>Festas</span><span class="dot"></span> <span>Presentes</span
+          ><span class="dot"></span>
+          <span>Momentos especiais</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="swirl" aria-hidden="true">
+      <svg viewBox="0 0 220 26" fill="none">
+        <path
+          d="M2 13c14-14 28 14 42 0S72-1 86 13s28 14 42 0 28-14 42 0 28 14 42 0"
+          stroke="#C97878"
+          stroke-width="1.2"
+          stroke-linecap="round"
+        />
+      </svg>
+    </div>
+
+    <section class="section" id="doces">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Nossa vitrine</div>
+          <h2>Doces feitos para encantar</h2>
+        </div>
+        <div class="sweets-grid">
+          <div class="sweet-card reveal">
+            <svg class="seal" viewBox="0 0 40 40" fill="none">
+              <circle
+                cx="20"
+                cy="20"
+                r="18"
+                stroke="#C9A66B"
+                stroke-width="1"
+              />
+              <path
+                d="M20 27s-9-5.5-9-11.5C11 12 13.3 10 16 10.5c1.8.4 3 1.6 4 3 1-1.4 2.2-2.6 4-3 2.7-.5 5 1.5 5 5 0 6-9 11.5-9 11.5z"
+                fill="#C9A66B"
+              />
+            </svg>
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="55" r="30" fill="#7A3F2B" />
+                <circle cx="38" cy="46" r="4" fill="#F4D6D6" />
+                <circle cx="58" cy="40" r="3" fill="#EFA3A0" />
+                <circle cx="64" cy="58" r="3.5" fill="#FFF9F7" />
+                <circle cx="42" cy="66" r="3" fill="#C97878" />
+              </svg>
+            </div>
+            <h3>Brigadeiros Gourmet</h3>
+            <p>
+              Acabamento impecável, recheio cremoso e granulados selecionados um
+              a um.
+            </p>
+          </div>
+
+                   <div class="sweet-card reveal">
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="26"
+                  fill="#F8E8E8"
+                  stroke="#C97878"
+                  stroke-width="1.4"
+                />
+                <circle cx="50" cy="50" r="17" fill="#EFA3A0" />
+                <path
+                  d="M50 42s-4-3-6.4-.7c-2 1.9-.4 4.4 6.4 9.7 6.8-5.3 8.4-7.8 6.4-9.7C53.9 39 50 42 50 42z"
+                  fill="#FFF9F7"
+                />
+              </svg>
+            </div>
+            <h3>Docinhos Personalizados</h3>
+            <p>
+              Cores, temas e embalagens sob medida para a sua festa ou
+              celebração.
+            </p>
+          </div>
+
+          <div class="sweet-card reveal">
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <rect
+                  x="26"
+                  y="38"
+                  width="48"
+                  height="34"
+                  rx="4"
+                  fill="#7A3F2B"
+                />
+                <rect x="26" y="38" width="48" height="8" fill="#9A5D49" />
+                <circle cx="38" cy="60" r="2.4" fill="#FFF9F7" />
+                <circle cx="52" cy="64" r="2.4" fill="#EFA3A0" />
+                <circle cx="64" cy="58" r="2.4" fill="#FFF9F7" />
+              </svg>
+            </div>
+            <h3>Mini Brownies</h3>
+            <p>
+              Textura úmida e intensa, com cobertura brilhante de chocolate.
+            </p>
+          </div>
+
+          <div class="sweet-card reveal">
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <path d="M50 26 66 50 50 74 34 50z" fill="#9A5D49" />
+                <path d="M50 34 60 50 50 66 40 50z" fill="#C97878" />
+              </svg>
+            </div>
+            <h3>Trufas de Chocolate</h3>
+            <p>
+              Casca crocante e coração macio, em versões ao leite, branco e meio
+              amargo.
+            </p>
+          </div>
+
+          <!--<div class="sweet-card reveal">
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="26"
+                  fill="#F8E8E8"
+                  stroke="#C97878"
+                  stroke-width="1.4"
+                />
+                <circle cx="50" cy="50" r="17" fill="#EFA3A0" />
+                <path
+                  d="M50 42s-4-3-6.4-.7c-2 1.9-.4 4.4 6.4 9.7 6.8-5.3 8.4-7.8 6.4-9.7C53.9 39 50 42 50 42z"
+                  fill="#FFF9F7"
+                />
+              </svg>
+            </div>
+            <h3>Docinhos Personalizados</h3>
+            <p>
+              Cores, temas e embalagens sob medida para a sua festa ou
+              celebração.
+            </p>
+          </div>-->
+
+          <!--<div class="sweet-card reveal">
+            <div class="sweet-icon">
+              <svg viewBox="0 0 100 100">
+                <path
+                  d="M50 74s-22-13.5-22-28.5C28 36.5 34 31 41 32c4 .6 7 3 9 6.5C52 35 55 32.6 59 32c7-1 13 4.5 13 13.5C72 60.5 50 74 50 74z"
+                  fill="#7A3F2B"
+                />
+                <path
+                  d="M42 42c1.5 1.5 2.5 3 3 4.5"
+                  stroke="#FFF9F7"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Corações de Chocolate</h3>
+            <p>O toque romântico perfeito para presentear alguém especial.</p>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="historia">
+      <div class="wrap">
+        <div class="story-art reveal">
+          <svg viewBox="0 0 360 380" fill="none">
+            <circle cx="180" cy="190" r="150" fill="#F4D6D6" />
+            <circle cx="180" cy="190" r="112" fill="#FFF9F7" />
+            <g>
+              <circle cx="150" cy="165" r="34" fill="#7A3F2B" />
+              <circle cx="140" cy="155" r="3" fill="#F4D6D6" />
+              <circle cx="160" cy="150" r="2.4" fill="#EFA3A0" />
+              <circle cx="165" cy="172" r="2.8" fill="#FFF9F7" />
+              <path d="M215 150 231 174 215 198 199 174z" fill="#C97878" />
+              <path
+                d="M195 220s-16-9.8-16-20.5c0-6.6 4.6-11 10-10.2 2.9.4 5 2.2 6 4.8 1-2.6 3.1-4.4 6-4.8 5.4-.8 10 3.6 10 10.2 0 10.7-16 20.5-16 20.5z"
+                fill="#EFA3A0"
+              />
+            </g>
+            <path
+              d="M60 190a120 120 0 0 1 240 0"
+              stroke="#C9A66B"
+              stroke-width="1"
+              stroke-dasharray="2 6"
+              opacity=".7"
+            />
+          </svg>
+        </div>
+        <div class="story-text">
+          <div class="eyebrow reveal">Sobre a Sweet Lê</div>
+          <h2 class="reveal">
+            Confeitaria artesanal, feita com as próprias mãos
+          </h2>
+          <p class="reveal">
+            A Sweet Lê nasceu do desejo de transformar pequenos gestos em
+            grandes lembranças. Cada doce é preparado em pequenos lotes, com
+            ingredientes selecionados e todo o cuidado de um trabalho
+            verdadeiramente artesanal.
+          </p>
+          <p class="reveal">
+            Da escolha das cores ao acabamento final, personalizamos cada
+            detalhe para combinar com a sua festa, o seu presente ou o seu
+            momento especial.
+          </p>
+          <div class="story-quote reveal">
+            "Doce é carinho que se pode experimentar."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="occasions" id="ocasioes">
+      <div class="marquee">
+        <span>Aniversários</span><span>Casamentos</span><span>Chá de bebê</span
+        ><span>Datas comemorativas</span><span>Presentes surpresa</span>
+        <span>Aniversários</span><span>Casamentos</span><span>Chá de bebê</span
+        ><span>Datas comemorativas</span><span>Presentes surpresa</span>
+      </div>
+    </div>
+
+    <div class="band" aria-hidden="true">
+      <div class="band-item">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="30" fill="#7A3F2B" />
+          <circle cx="40" cy="42" r="3.5" fill="#F8E8E8" />
+        </svg>
+      </div>
+      <div class="band-item">
+        <svg viewBox="0 0 100 100">
+          <path
+            d="M50 74s-20-12-20-25c0-6 4-10 9-9 3.6.5 6 2.8 8 6 2-3.2 4.4-5.5 8-6 5-1 9 3 9 9 0 13-20 25-20 25z"
+            fill="#C97878"
+          />
+        </svg>
+      </div>
+      <div class="band-item">
+        <svg viewBox="0 0 100 100">
+          <rect x="28" y="40" width="44" height="30" rx="5" fill="#9A5D49" />
+          <circle cx="42" cy="55" r="2.6" fill="#FFF9F7" />
+          <circle cx="58" cy="58" r="2.6" fill="#F4D6D6" />
+        </svg>
+      </div>
+      <div class="band-item">
+        <svg viewBox="0 0 100 100">
+          <path
+            d="M50 32c-14 0-22 10-22 20h44c0-10-8-20-22-20z"
+            fill="#FFF9F7"
+          />
+          <path
+            d="M28 55h44l-6 20a6 6 0 0 1-6 5H40a6 6 0 0 1-6-5l-6-20z"
+            fill="#F4D6D6"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <section class="cta-final" id="contato">
+      <div class="cta-final-inner">
+        <div class="eyebrow reveal">Vamos adoçar seu momento?</div>
+        <h2 class="reveal">Pronta para criar<br />o seu doce especial</h2>
+        <p class="reveal">
+          Conta pra gente a ocasião, as cores e o tema — a Sweet Lê cuida do
+          resto, com todo o carinho de sempre.
+        </p>
+        <a href="https://wa.me/" class="btn-primary reveal">
+          Faça sua encomenda
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+              fill="#FFF9F7"
+            />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <div class="foot-brand">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 21s-7.5-4.6-10.2-9.6C.2 8 1.6 4.5 5 3.6c2.3-.6 4.4.5 5.9 2.7C12.4 3.6 15 2.6 17.4 3.3c3.6.9 5 4.3 3.2 7.9C17.7 16.2 12 21 12 21z"
+                  fill="#EFA3A0"
+                />
+              </svg>
+              <span>Sweet Lê</span>
+            </div>
+            <p>
+              Doces personalizados feitos à mão, com ingredientes selecionados e
+              todo o carinho de uma confeitaria boutique.
+            </p>
+          </div>
+          <div class="foot-col">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#doces">Doces</a></li>
+              <li><a href="#historia">Nossa história</a></li>
+              <li><a href="#ocasioes">Ocasiões</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>Contato</h4>
+            <ul>
+              <li><a href="https://wa.me/">WhatsApp</a></li>
+              <li><a href="https://sweet-le.maismei.link">Instagram</a></li>
+              <li><a href="#">sweetledoceria26@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>© 2026 Sweet Lê — Doces Personalizados</span>
+          <span>Feito com carinho, um doce por vez</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
