@@ -22,7 +22,7 @@
   });
 
   // Botão "Fazer sua encomenda" → WhatsApp
-const whatsappButtons = document.querySelectorAll('.btn-primary');
+const whatsappButtons = document.querySelectorAll('.btn-primary, .order-link');
 
 whatsappButtons.forEach(button => {
   button.addEventListener('click', (e) => {
